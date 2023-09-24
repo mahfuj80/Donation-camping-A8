@@ -4,7 +4,7 @@ import { useState } from 'react';
 const Banner = ({ searchFunction }) => {
   const [inputValue, setInputValue] = useState('');
   return (
-    <div className="text-center space-y-7 mt-32">
+    <div className="text-center space-y-7 mt-32 mb-44">
       <h1 className="text-[#0B0B0B] text-5xl font-bold">
         I Grow By Helping People In Need
       </h1>
