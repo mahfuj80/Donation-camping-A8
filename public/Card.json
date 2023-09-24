@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/41rhgfF/Health.png",
+    "tag": "Health",
+    "tag_color": "#0052FF",
+    "tag_bg_color": "#0052ff33",
+    "title": "Clean water for children",
+    "card_bg": "#d9e5ff",
+    "donation": 290,
+    "description": "Ensuring good health involves a multifaceted approach. Governments must invest in healthcare infrastructure, making it accessible and affordable for all. Public health campaigns can educate communities on preventive measures. Individuals should maintain a balanced diet, exercise regularly, and manage stress. Regular health check-ups are crucial. Healthcare professionals play a vital role, offering quality care and guidance. Mental health awareness is equally important; reducing stigma can encourage seeking help. Employers can support employee well-being through wellness programs."
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/m0mSR92/Education.png",
+    "tag": "Education",
+    "tag_color": "#FF444A",
+    "tag_bg_color": "#ffc3c5",
+    "title": "Good education",
+    "card_bg": "#ffe3e4",
+    "donation": 290,
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/Lr9P5Cj/Clothing.png",
+    "tag": "Clothing",
+    "tag_color": "#79C23F",
+    "tag_bg_color": "#d4ecc1",
+    "title": "Used Clothing Drive",
+    "card_bg": "#ebf6e2",
+    "donation": 290,
+    "description": "Clothing is an essential aspect of daily life. It serves both functional and expressive purposes. Governments can support the textile industry, promoting sustainability and fair labor practices. Individuals should choose clothing made from eco-friendly materials and consider second-hand options to reduce environmental impact. Tailoring clothing choices to climate and activities is important for comfort and practicality. Fashion designers and brands can prioritize inclusively and diversity in their designs to cater to various body types and styles. Clothing care, such as proper washing and storage"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/m0GQf6J/Food.png",
+    "tag": "Food",
+    "tag_color": "#F87147",
+    "tag_bg_color": "#fdd2c4",
+    "title": "Better Food for Everyone",
+    "card_bg": "#feeae3",
+    "donation": 290,
+    "description": "Food is vital for sustenance and well-being. Governments should invest in agricultural development, ensuring food security and promoting sustainable farming practices. Public education campaigns can raise awareness about a balanced diet and its impact on health. Individuals should aim for a diverse diet, rich in fruits, vegetables, grains, and proteins. Avoiding excessive processed foods and sugars is crucial. Food safety practices, like proper storage and hygiene, are essential. Supporting local and sustainable food sources can have a positive environmental impact. Additionally, reducing food waste at both household and industrial."
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/m0GQf6J/Food.png",
+    "tag": "Food",
+    "tag_color": "#F87147",
+    "tag_bg_color": "#fdd2c4",
+    "title": "Better Food for Everyone",
+    "card_bg": "#feeae3",
+    "donation": 290,
+    "description": "Food is vital for sustenance and well-being. Governments should invest in agricultural development, ensuring food security and promoting sustainable farming practices. Public education campaigns can raise awareness about a balanced diet and its impact on health. Individuals should aim for a diverse diet, rich in fruits, vegetables, grains, and proteins. Avoiding excessive processed foods and sugars is crucial. Food safety practices, like proper storage and hygiene, are essential. Supporting local and sustainable food sources can have a positive environmental impact. Additionally, reducing food waste at both household and industrial."
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/Lr9P5Cj/Clothing.png",
+    "tag": "Clothing",
+    "tag_color": "#79C23F",
+    "tag_bg_color": "#d4ecc1",
+    "title": "Used Clothing Drive",
+    "card_bg": "#ebf6e2",
+    "donation": 290,
+    "description": "Clothing is an essential aspect of daily life. It serves both functional and expressive purposes. Governments can support the textile industry, promoting sustainability and fair labor practices. Individuals should choose clothing made from eco-friendly materials and consider second-hand options to reduce environmental impact. Tailoring clothing choices to climate and activities is important for comfort and practicality. Fashion designers and brands can prioritize inclusively and diversity in their designs to cater to various body types and styles. Clothing care, such as proper washing and storage"
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/m0mSR92/Education.png",
+    "tag": "Education",
+    "tag_color": "#FF444A",
+    "tag_bg_color": "#ffc3c5",
+    "title": "Good education",
+    "card_bg": "#ffe3e4",
+    "donation": 290,
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/41rhgfF/Health.png",
+    "tag": "Health",
+    "tag_color": "#0052FF",
+    "tag_bg_color": "#0052ff33",
+    "title": "Clean water for children",
+    "card_bg": "#d9e5ff",
+    "donation": 290,
+    "description": "Ensuring good health involves a multifaceted approach. Governments must invest in healthcare infrastructure, making it accessible and affordable for all. Public health campaigns can educate communities on preventive measures. Individuals should maintain a balanced diet, exercise regularly, and manage stress. Regular health check-ups are crucial. Healthcare professionals play a vital role, offering quality care and guidance. Mental health awareness is equally important; reducing stigma can encourage seeking help. Employers can support employee well-being through wellness programs."
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/41rhgfF/Health.png",
+    "tag": "Health",
+    "tag_color": "#0052FF",
+    "tag_bg_color": "#0052ff33",
+    "title": "Clean water for children",
+    "card_bg": "#d9e5ff",
+    "donation": 290,
+    "description": "Ensuring good health involves a multifaceted approach. Governments must invest in healthcare infrastructure, making it accessible and affordable for all. Public health campaigns can educate communities on preventive measures. Individuals should maintain a balanced diet, exercise regularly, and manage stress. Regular health check-ups are crucial. Healthcare professionals play a vital role, offering quality care and guidance. Mental health awareness is equally important; reducing stigma can encourage seeking help. Employers can support employee well-being through wellness programs."
+  },
+  {
+    "id": 10,
+    "img": "https://i.ibb.co/m0mSR92/Education.png",
+    "tag": "Education",
+    "tag_color": "#FF444A",
+    "tag_bg_color": "#ffc3c5",
+    "title": "Good education",
+    "card_bg": "#ffe3e4",
+    "donation": 290,
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential."
+  },
+  {
+    "id": 11,
+    "img": "https://i.ibb.co/Lr9P5Cj/Clothing.png",
+    "tag": "Clothing",
+    "tag_color": "#79C23F",
+    "tag_bg_color": "#d4ecc1",
+    "title": "Used Clothing Drive",
+    "card_bg": "#ebf6e2",
+    "donation": 290,
+    "description": "Clothing is an essential aspect of daily life. It serves both functional and expressive purposes. Governments can support the textile industry, promoting sustainability and fair labor practices. Individuals should choose clothing made from eco-friendly materials and consider second-hand options to reduce environmental impact. Tailoring clothing choices to climate and activities is important for comfort and practicality. Fashion designers and brands can prioritize inclusively and diversity in their designs to cater to various body types and styles. Clothing care, such as proper washing and storage"
+  },
+  {
+    "id": 12,
+    "img": "https://i.ibb.co/m0GQf6J/Food.png",
+    "tag": "Food",
+    "tag_color": "#F87147",
+    "tag_bg_color": "#fdd2c4",
+    "title": "Better Food for Everyone",
+    "card_bg": "#feeae3",
+    "donation": 290,
+    "description": "Food is vital for sustenance and well-being. Governments should invest in agricultural development, ensuring food security and promoting sustainable farming practices. Public education campaigns can raise awareness about a balanced diet and its impact on health. Individuals should aim for a diverse diet, rich in fruits, vegetables, grains, and proteins. Avoiding excessive processed foods and sugars is crucial. Food safety practices, like proper storage and hygiene, are essential. Supporting local and sustainable food sources can have a positive environmental impact. Additionally, reducing food waste at both household and industrial."
+  }
+]
