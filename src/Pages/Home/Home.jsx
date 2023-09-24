@@ -1,7 +1,14 @@
+import Banner from '../../components/Banner/Banner';
+import Nav from '../../components/Navbar/Nav';
+
 const Home = () => {
+  const searchFunction = (value) => {
+    console.log(value);
+  };
   return (
     <div>
-      <h1>home</h1>
+      <Nav></Nav>
+      <Banner searchFunction={searchFunction}></Banner>
     </div>
   );
 };
