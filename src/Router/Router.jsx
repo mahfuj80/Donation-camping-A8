@@ -24,6 +24,7 @@ const router = createBrowserRouter([
       {
         path: '/statics',
         element: <Statics></Statics>,
+        loader: () => fetch('/Card.json'),
       },
       {
         path: '/card-details/:dId',
