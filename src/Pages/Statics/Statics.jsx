@@ -6,7 +6,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 const Statics = () => {
   const allCards = useLoaderData();
   const allDonationAmount = allCards.map((card) => card.donation);
-  console.log(allDonationAmount);
+  // console.log(allDonationAmount);
   const totalDonationAmount = allDonationAmount.reduce(
     (accumulator, currentValue) => accumulator + currentValue
   );
@@ -16,7 +16,13 @@ const Statics = () => {
   const totalPaidDonationAmount = paidDonationAmount.reduce(
     (accumulator, currentValue) => accumulator + currentValue
   );
-  console.log(totalDonationAmount, totalPaidDonationAmount);
+  // console.log(totalDonationAmount, totalPaidDonationAmount);
+  // Percentage Calculation:
+  const donationPercentage = (
+    (totalPaidDonationAmount / totalDonationAmount) *
+    100
+  ).toFixed(2);
+  const percentageRemaining = (100 - donationPercentage).toFixed(2);
 
   //Create Chart {
   const options = {
@@ -32,8 +38,8 @@ const Statics = () => {
         indexLabel: '{y}%',
         indexLabelPlacement: 'inside',
         dataPoints: [
-          { y: 32, label: 'Total Donation' },
-          { y: 22, label: 'Your Donation' },
+          { y: percentageRemaining, label: 'Total Donation' },
+          { y: donationPercentage, label: 'Your Donation' },
         ],
       },
     ],
