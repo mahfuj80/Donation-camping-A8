@@ -1,13 +1,14 @@
 import { NavLink } from 'react-router-dom';
+import Logo from '../Logo/Logo';
 
 const Nav = () => {
   return (
     <div className="mx-auto flex items-center justify-between mt-12 px-5">
-      <img className="w-[200px] " src="Logo.png" alt="Logo" />
+      <Logo></Logo>
       <ul className="flex gap-10">
         <li>
           <NavLink
-            to="/"
+            to={'/'}
             className={({ isActive, isPending }) =>
               isPending
                 ? 'pending'
@@ -21,7 +22,7 @@ const Nav = () => {
         </li>
         <li>
           <NavLink
-            to="/donation"
+            to={'/donation'}
             className={({ isActive, isPending }) =>
               isPending
                 ? 'pending'
@@ -35,7 +36,7 @@ const Nav = () => {
         </li>
         <li>
           <NavLink
-            to="/statics"
+            to={'/statics'}
             className={({ isActive, isPending }) =>
               isPending
                 ? 'pending'

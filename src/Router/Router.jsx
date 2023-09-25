@@ -4,6 +4,7 @@ import ErrorPage from '../Pages/Error/ErrorPage';
 import Home from '../Pages/Home/Home';
 import Donation from '../Pages/Donation/Donation';
 import Statics from '../Pages/Statics/Statics';
+import CardDetails from '../Pages/CardDetails/CardDetails';
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('./Card.json'),
+        loader: async () => await fetch('./Card.json'),
       },
       {
         path: '/donation',
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
       {
         path: '/statics',
         element: <Statics></Statics>,
+      },
+      {
+        path: '/card-details/:id',
+        element: <CardDetails></CardDetails>,
+        loader: async () => await fetch('./Card.json'),
       },
     ],
   },
