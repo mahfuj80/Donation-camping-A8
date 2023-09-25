@@ -5,8 +5,8 @@ import { useEffect, useState } from 'react';
 import NoCard from '../../components/NoCard/NoCard';
 
 const Home = () => {
-  const [find, setFind] = useState([]);
   const allCards = useLoaderData();
+  const [find, setFind] = useState([]);
   const searchFunction = (value) => {
     if (value) {
       const finnedCards = allCards.filter((card) =>
