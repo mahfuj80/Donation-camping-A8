@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import adToLocalStorage from '../../utilities/adToLocalStorage';
+import React from 'react';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const CardDetails = () => {
   const { dId } = useParams();
@@ -28,6 +31,7 @@ const CardDetails = () => {
           >
             Donate${donation}
           </p>
+          <ToastContainer />
         </div>
         <h2 className="text-3xl my-4 font-bold">{title}</h2>
         <p className="text-[#0B0B0BB2]">{description}</p>
