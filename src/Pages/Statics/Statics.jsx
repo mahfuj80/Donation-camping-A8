@@ -61,7 +61,7 @@ const Statics = () => {
       };
 
       return (
-        <div className="p-20">
+        <div className="md:p-20 py-20">
           <div className="mx-auto w-[400px] h-[400px]">
             <PieChart width={400} height={400}>
               <Pie
@@ -83,7 +83,7 @@ const Statics = () => {
               </Pie>
             </PieChart>
           </div>
-          <div className="flex w-fit mx-auto gap-4 text-center">
+          <div className="flex flex-col md:flex-row w-fit mx-auto gap-4 text-center">
             <div className="flex items-center gap-3">
               <p>Your Donation:</p>
               <div className="w-[100px] bg-[#00c49f] h-3 rounded"></div>
