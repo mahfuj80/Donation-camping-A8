@@ -48,7 +48,9 @@ const Donation = () => {
                   ))}
           </div>
         ) : (
-          <div>Error</div>
+          <div className="text-5xl font-bold w-full h-[55vh] flex justify-center items-center bg-gray-100 shadow-2xl rounded-lg">
+            <h1>You did not donate anyone</h1>
+          </div>
         )}
         {/* Show all */}
         <div className="text-center">
