@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import adToLocalStorage from '../../utilities/adToLocalStorage';
-import React from 'react';
-import { toast, ToastContainer } from 'react-toastify';
+// import React from 'react';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const CardDetails = () => {
