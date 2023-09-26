@@ -17,7 +17,7 @@ const Statics = () => {
       const totalPaidDonationAmount = paidDonationAmount.reduce(
         (accumulator, currentValue) => accumulator + currentValue
       );
-      // console.log(totalDonationAmount, totalPaidDonationAmount);
+      console.log(totalDonationAmount, totalPaidDonationAmount);
       // Percentage Calculation:
       // const donationPercentage = (
       //   (totalPaidDonationAmount / totalDonationAmount) *
@@ -28,7 +28,7 @@ const Statics = () => {
       //Create Chart {
       // console.log(totalPaidDonationAmount, totalDonationAmount);
       const data = [
-        { name: 'Group A', value: totalDonationAmount },
+        { name: 'Group A', value: totalPaidDonationAmount },
         {
           name: 'Group B',
           value: totalDonationAmount - totalPaidDonationAmount,
