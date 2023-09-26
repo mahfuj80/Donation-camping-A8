@@ -3,7 +3,7 @@ import Logo from '../Logo/Logo';
 
 const Nav = () => {
   return (
-    <div className="mx-auto flex items-center justify-between mt-12 px-5">
+    <div className="mx-auto flex flex-col gap-8 md:flex-row md:gap-0 items-center justify-between mt-12 px-5">
       <Logo></Logo>
       <ul className="flex gap-10">
         <li>

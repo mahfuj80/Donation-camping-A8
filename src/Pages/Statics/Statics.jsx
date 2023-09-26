@@ -55,7 +55,7 @@ const Statics = () => {
     } else {
       return (
         <>
-          <div className="text-5xl font-bold w-full h-[55vh] mt-12 flex justify-center items-center bg-gray-100 shadow-2xl rounded-lg">
+          <div className="text-5xl font-bold w-full h-[55vh] mt-12 flex justify-center items-center bg-gray-100 shadow-2xl rounded-lg text-center">
             <h1>Please Donate First</h1>
           </div>
         </>

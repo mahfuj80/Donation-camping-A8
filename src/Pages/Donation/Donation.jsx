@@ -48,7 +48,7 @@ const Donation = () => {
                   ))}
           </div>
         ) : (
-          <div className="text-5xl font-bold w-full h-[55vh] flex justify-center items-center bg-gray-100 shadow-2xl rounded-lg">
+          <div className="text-5xl font-bold w-full h-[55vh] flex justify-center items-center bg-gray-100 shadow-2xl rounded-lg text-center">
             <h1>You did not donate anyone</h1>
           </div>
         )}
