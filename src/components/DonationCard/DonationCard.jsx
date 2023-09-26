@@ -22,12 +22,12 @@ const DonationCard = ({ donation }) => {
           >
             {tag}
           </p>
-          <h1 className="text-xl font-bold">{title}</h1>
+          <h1 className="text-2xl font-bold">{title}</h1>
           <p className="font-bold" style={{ color: tag_color }}>
             ${donationAmount}
           </p>
           <button
-            className="block text-left text-white w-fit px-2 py-1 rounded font-normal text-sm"
+            className="block text-left text-white w-fit px-2 py-1 rounded font-normal text-lg"
             style={{ background: tag_color }}
           >
             View Details

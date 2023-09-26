@@ -46,7 +46,7 @@ const Donation = () => {
         <div className="text-center">
           {isShowAll || (
             <button
-              className="font-semibold w-fit px-3 py-2 bg-emerald-800 text-white rounded text-center"
+              className="font-semibold w-fit px-3 py-2 bg-[#009444] text-white rounded text-center"
               onClick={() => setIsShowAll(!isShowAll)}
             >
               Show all
