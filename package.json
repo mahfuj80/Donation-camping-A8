@@ -1,5 +1,6 @@
 {
   "name": "donation-camping",
+  "homepage": "https://donation-camping-assignment.surge.sh",
   "private": true,
   "version": "0.0.0",
   "type": "module",
