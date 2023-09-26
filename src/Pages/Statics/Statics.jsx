@@ -1,8 +1,6 @@
 import { useLoaderData } from 'react-router-dom';
-import CanvasJSReact from '@canvasjs/react-charts';
+import { PieChart, Pie, Cell } from 'recharts';
 import ErrorPage from '../Error/ErrorPage';
-
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 const Statics = () => {
   const allCards = useLoaderData();
@@ -21,35 +19,80 @@ const Statics = () => {
       );
       // console.log(totalDonationAmount, totalPaidDonationAmount);
       // Percentage Calculation:
-      const donationPercentage = (
-        (totalPaidDonationAmount / totalDonationAmount) *
-        100
-      ).toFixed(2);
-      const percentageRemaining = (100 - donationPercentage).toFixed(2);
+      // const donationPercentage = (
+      //   (totalPaidDonationAmount / totalDonationAmount) *
+      //   100
+      // ).toFixed(2);
+      // const percentageRemaining = (100 - donationPercentage).toFixed(2);
 
       //Create Chart {
-      const options = {
-        animationEnabled: true,
-        exportFileName: 'Donation Status',
-        exportEnabled: false,
-        data: [
-          {
-            type: 'pie',
-            showInLegend: true,
-            legendText: '{label}',
-            toolTipContent: '{label}: <strong>{y}%</strong>',
-            indexLabel: '{y}%',
-            indexLabelPlacement: 'inside',
-            dataPoints: [
-              { y: percentageRemaining, label: 'Total Donation' },
-              { y: donationPercentage, label: 'Your Donation' },
-            ],
-          },
-        ],
+      const data = [
+        { name: 'Group A', value: totalPaidDonationAmount },
+        { name: 'Group B', value: totalDonationAmount },
+      ];
+      const COLORS = ['#00C49F', '#FF444A'];
+
+      const RADIAN = Math.PI / 180;
+
+      const renderCustomizedLabel = ({
+        cx,
+        cy,
+        midAngle,
+        innerRadius,
+        outerRadius,
+        percent,
+        // index,
+      }) => {
+        const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+        const x = cx + radius * Math.cos(-midAngle * RADIAN);
+        const y = cy + radius * Math.sin(-midAngle * RADIAN);
+
+        return (
+          <text
+            x={x}
+            y={y}
+            fill="white"
+            textAnchor={x > cx ? 'start' : 'end'}
+            dominantBaseline="central"
+          >
+            {`${(percent * 100).toFixed(0)}%`}
+          </text>
+        );
       };
+
       return (
         <div className="p-20">
-          <CanvasJSChart options={options} />
+          <div className="mx-auto w-[400px] h-[400px]">
+            <PieChart width={400} height={400}>
+              <Pie
+                data={data}
+                cx="50%"
+                cy="50%"
+                labelLine={false}
+                label={renderCustomizedLabel}
+                outerRadius={150}
+                fill="#8884d8"
+                dataKey="value"
+              >
+                {data.map((entry, index) => (
+                  <Cell
+                    key={`cell-${index}`}
+                    fill={COLORS[index % COLORS.length]}
+                  />
+                ))}
+              </Pie>
+            </PieChart>
+          </div>
+          <div className="flex w-fit mx-auto gap-4 text-center">
+            <div className="flex items-center gap-3">
+              <p>Your Donation:</p>
+              <div className="w-[100px] bg-[#00c49f] h-3 rounded"></div>
+            </div>
+            <div className="flex items-center gap-3">
+              <p>Total Donation:</p>
+              <div className="w-[100px] bg-[#ff444a]  h-3 rounded"></div>
+            </div>
+          </div>
         </div>
       );
     } else {

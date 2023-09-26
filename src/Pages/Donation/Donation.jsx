@@ -25,7 +25,7 @@ const Donation = () => {
       setDisplayDonation([]);
     }
   }, [donation, allDonation]);
-  console.log('yes i got it');
+  // console.log('yes i got it');
   return (
     <>
       <div className="mt-11 mb-32">
