@@ -26,9 +26,13 @@ const Statics = () => {
       // const percentageRemaining = (100 - donationPercentage).toFixed(2);
 
       //Create Chart {
+      // console.log(totalPaidDonationAmount, totalDonationAmount);
       const data = [
-        { name: 'Group A', value: totalPaidDonationAmount },
-        { name: 'Group B', value: totalDonationAmount },
+        { name: 'Group A', value: totalDonationAmount },
+        {
+          name: 'Group B',
+          value: totalDonationAmount - totalPaidDonationAmount,
+        },
       ];
       const COLORS = ['#00C49F', '#FF444A'];
 
