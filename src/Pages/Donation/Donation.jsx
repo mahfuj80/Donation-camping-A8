@@ -24,27 +24,35 @@ const Donation = () => {
 
   return (
     <>
-      <div>
-        {isShowAll
-          ? displayDonation.map((donation) => (
-              <DonationCard
-                key={donation.id}
-                donation={donation}
-              ></DonationCard>
-            ))
-          : displayDonation
-              .slice(0, 4)
-              .map((donation) => (
+      <div className="mt-11 mb-32">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mb-10">
+          {isShowAll
+            ? displayDonation.map((donation) => (
                 <DonationCard
                   key={donation.id}
                   donation={donation}
                 ></DonationCard>
-              ))}
-      </div>
-      <div>
-        {isShowAll || (
-          <button onClick={() => setIsShowAll(!isShowAll)}>Show all</button>
-        )}
+              ))
+            : displayDonation
+                .slice(0, 4)
+                .map((donation) => (
+                  <DonationCard
+                    key={donation.id}
+                    donation={donation}
+                  ></DonationCard>
+                ))}
+        </div>
+        {/* Show all */}
+        <div className="text-center">
+          {isShowAll || (
+            <button
+              className="font-semibold w-fit px-3 py-2 bg-emerald-800 text-white rounded text-center"
+              onClick={() => setIsShowAll(!isShowAll)}
+            >
+              Show all
+            </button>
+          )}
+        </div>
       </div>
     </>
   );
